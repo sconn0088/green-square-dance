@@ -1,0 +1,39 @@
+html {
+	height: 100%;
+}
+
+body {
+	background-color: yellow;
+	height: 100%;
+}
+
+h1 {
+	color: blue;
+}
+
+#container {
+	width: 90%;
+	height: 95%;
+	position: relative;
+}
+
+div {
+	text-align: center;
+}
+
+#greensquare {
+	border: solid 10px #000;
+	background-color: green;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+}
+
+.centered {
+	width: 50%;
+	height: 50%;
+	overflow: auto;
+	margin: auto;
+	position: absolute;
+	top: 0; right: 0; bottom: 0; left: 0;
+}
